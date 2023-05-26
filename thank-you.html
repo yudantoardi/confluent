@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confluent</title>
+
+    <link rel="stylesheet" href="asset/css/normalize.css">
+    <link rel="stylesheet" href="asset/css/bootstrap.css">
+    <link rel="stylesheet" href="asset/css/fontawesome-all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="asset/css/owl.carousel.css">
+    <link rel="stylesheet" href="asset/css/main.css">
+    
+</head>
+<body>
+    
+    <div class="master">
+
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <a href="#" class="logo"><img src="asset/images/logo.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="thank-you-cover">
+            <div class="container">
+                <div class="row justify-content-center mb-5">
+                    <div class="col-md-6">
+                        <div class="ty-text text-center">
+                            <i class="ty-icon fa fa-check-circle"></i>
+                            <p>Terima kasih telah mendaftar!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-10">
+                        <div class="article-card">
+                            <div class="pic">
+                                <div class="ratio ratio-75">
+                                    <img src="asset/images/bank/ty-1.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="text">
+                                <h3>We are happy to help you solve the problem you’re facing</h3>
+                                <p>Kami akan segera memproses pendaftaran anda dan mengirimkan email terkait update terbaru.</p>
+                                <a href="#" class="btn btn-primary"><i class="fa fa-file-download"></i> Download File</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="media-player">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <div class="ratio ratio-16">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/VRVfx5Sf7Ug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="form-intro">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-10">
+                        <div class="article-card">
+                            <div class="pic">
+                                <div class="ratio ratio-75">
+                                    <img src="asset/images/bank/ty-1.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="text">
+                                <h3 class="text-white mb-5">We want to help you optimize your business for success and grow quickly</h3>
+                                <a href="#" class="btn btn-secondary">VISIT OUR WEBSITE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <a href="#" class="foot-logo"><img src="asset/images/logo.png" alt=""></a>
+                        <h4>PT. All Data International</h4>
+                    </div>
+                    <div class="col-md-3">
+                        <p class="info"><i class="fa fa-map-marker"></i>Grand Aries Niaga Blok G1-2T, Jakarta 11620, Indonesia</p>
+                    </div>
+                    <div class="col-md-2">
+                        <p class="info"><i class="fa fa-phone"></i>+6221-29319396</p>
+                    </div>
+                    <div class="col-md-2">
+                        <p class="info"><i class="fa fa-phone"></i>+6221-29319397</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="logo-group">
+                            <a href="#"><img src="asset/images/bank/azure.png" alt=""></a>
+                            <a href="#"><img src="asset/images/bank/google.png" alt=""></a>
+                            <a href="#"><img src="asset/images/bank/lenovo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-right">
+                        <strong class="mr-3">Follow Us:</strong>
+                        <a href="#" class="icon-bt icon-fb">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="icon-bt icon-in">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="icon-bt icon-ig">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="icon-bt icon-tw">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p class="text-center">Copyright by Confluent. All rights reserved</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="asset/js/jquery-1.11.0.min.js"></script>
+    <script src="asset/js/owl.carousel.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+
+            $(".toggle-link").click(function(tl){
+                tl.preventDefault();
+                $($(this).attr("href")).toggleClass("hidden");
+            });
+
+        });
+    </script>
+</body>
+</html>
