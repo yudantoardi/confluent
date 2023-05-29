@@ -463,11 +463,16 @@ footer p.info i{
         float: left;
         padding-right: 0;
     }
-    .cta-box div{
+    .cta-box .text{
+        width: 100%;
+        float: left;
+        padding-right: 0;
+    }
+    .cta-box .btns{
         width: 100%;
         float: left;
     }
-    .cta-box .btn{
+    .cta-box .btns .btn{
         float: left;
     }
     .register-form .inp-group input, .register-form .inp-group select, .register-form .inp-group textarea{
