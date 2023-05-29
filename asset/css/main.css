@@ -221,7 +221,7 @@ section.hero{
     display: flex;
     justify-items: center;
 }
-.cta-box div{
+.cta-box .btns{
     width: 30%;
     padding-top: 15px;
 }
@@ -229,12 +229,15 @@ section.hero{
     width: 220px;
     float: right;
 }
+.cta-box .text{
+    width: 70%;
+    padding-right: 100px;
+}
 .cta-box h3{
     color: #17345F;
     font-size: 32px;
     font-weight: bold;
-    width: 70%;
-    padding-right: 60px;
+    margin-bottom: 20px;
 }
 
 section.cta{
