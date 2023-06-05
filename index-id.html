@@ -132,7 +132,7 @@
                                 <p>Pelajari lebih dalam mengenai keunggulan Confluent untuk perusahaan asuransi!</p>
                             </div>
                             <div class="btns">
-                                <a href="#" class="btn btn-primary">Unduh Solution Brief</a>
+                                <a href="#register" class="btn btn-primary toggle-link scroll-link">Unduh Solution Brief</a>
                             </div>
                         </div>
                     </div>
@@ -159,7 +159,7 @@
                             <div class="col-12">
                                 <div class="section-title text-white text-center">
                                     <h4>Isi form berikut untuk mendaftar</h4>
-                                    <p>Kami akan mengirimkan detail produk kami ke email anda</p>
+                                    <p class="text-center">Kami akan mengirimkan detail produk kami ke email anda</p>
                                 </div>
                             </div>
                         </div>
@@ -249,6 +249,12 @@
             $(".toggle-link").click(function(tl){
                 tl.preventDefault();
                 $($(this).attr("href")).toggleClass("hidden");
+            });
+
+            $(".scroll-link").click(function(){
+                $('html, body').animate({
+                    scrollTop: $("#register").offset().top
+                }, 500);
             });
 
         });

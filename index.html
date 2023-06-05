@@ -129,7 +129,7 @@
                         <div class="cta-box">
                             <h3>Want to learn more about how we can help?</h3>
                             <div>
-                                <a href="#" class="btn btn-primary">Get Solution Brief</a>
+                                <a href="#register" class="btn btn-primary toggle-link scroll-link">Get Solution Brief</a>
                             </div>
                         </div>
                     </div>
@@ -156,7 +156,7 @@
                             <div class="col-12">
                                 <div class="section-title text-white text-center">
                                     <h4>Fill this  form to register</h4>
-                                    <p>We will email you only about this product</p>
+                                    <p class="text-center">We will email you only about this product</p>
                                 </div>
                             </div>
                         </div>
@@ -247,6 +247,12 @@
             $(".toggle-link").click(function(tl){
                 tl.preventDefault();
                 $($(this).attr("href")).toggleClass("hidden");
+            });
+
+            $(".scroll-link").click(function(){
+                $('html, body').animate({
+                    scrollTop: $("#register").offset().top
+                }, 500);
             });
 
         });

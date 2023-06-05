@@ -432,6 +432,11 @@ footer p.info i{
     width: 100%;
 }
 
+.about p,
+.form-intro p{
+    text-align: justify;
+}
+
 @media only screen and (max-width: 1024px){
 
     .master{
